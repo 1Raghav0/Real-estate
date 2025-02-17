@@ -21,7 +21,8 @@ const PropertyGrid = () => {
         {/* Grid Layout */}
         <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center">
           {properties.map((property) => (
-            <div key={property.id} className="relative h-auto w-full md:w-80 rounded-lg shadow-2xl overflow-hidden">
+            <div key={property.id} className="relative h-auto w-full md:w-80 rounded-lg shadow-2xl overflow-hidden hover:shadow-lg 
+       transition-transform duration-300 hover:scale-105 cursor-pointer">
               {/* Image */}
               <img src={property.image} alt="Property" className="object-cover w-full h-60 rounded-lg" />
 

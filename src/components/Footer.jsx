@@ -10,7 +10,7 @@ const Footer = () => {
             Do You Have <br className="hidden md:block" /> Any Questions?
           </h1>
           <button className="bg-white px-6 py-3 text-lg md:text-xl rounded-3xl hover:bg-gray-200 transition">
-            Contact Us
+            <a href="/contact">Contact Us</a>
           </button>
         </div>
         <p className="text-white text-center md:text-left mt-3">
@@ -34,7 +34,7 @@ const Footer = () => {
               <input
                 type="text"
                 placeholder="Email Address"
-                className="py-2 px-4 bg-white w-full sm:w-1/2 rounded-lg placeholder:text-gray-500 focus:outline-none"
+                className="py-2 px-4 bg-white w-full sm:w-1/2 rounded-lg text-gray-600 placeholder:text-gray-500 focus:outline-none"
               />
               <button className="bg-green-500 py-2 px-6 rounded-lg text-white hover:bg-green-600 transition">
                 Notify Me

@@ -3,19 +3,6 @@ import React from "react";
 const HeroSection = () => {
   return (
     <>
-    {/* <div className="h-screen w-auto bg-purple-200">
-    <div className=" flex items-center justify-center ">
-        <div className="flex items-center justify-center ">
-          <h1 className="text-7xl font-semibold ">Search Your</h1>
-          <h1 className="text-7xl font-semibold ">Next Home</h1>
-          <p className="text-1xl text-gray-600">
-            Find new & featured property located in your local city.
-          </p>
-          <div className="h-20 w-auto mt-10 bg-black text-white">
-          </div>
-        </div>
-      </div>
-    </div> */}
         <div className="relative w-full h-screen flex items-center justify-center bg-[url(./city-1.png)] bg-cover"> 
       {/* Overlay for better text readability */}
       <div className="absolute inset-0 bg-opacity-10"></div>

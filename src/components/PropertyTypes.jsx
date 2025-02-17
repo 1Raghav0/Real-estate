@@ -12,7 +12,7 @@ const PropertyTypes = () => {
         <div className="flex items-center justify-center gap-x-8 gap-y-8 flex-wrap  ">
           <div
             className="h-60 w-auto border-gray-200 bg-white shadow-lg p-10 rounded-lg hover:shadow-lg 
-      transform transition-transform duration-300 hover:scale-105"
+       transition-transform duration-300 hover:scale-105"
           >
             <img src="./h1.png" alt="" className="h-12 w-12 mb-4" />
             <p>
@@ -25,7 +25,7 @@ const PropertyTypes = () => {
           </div>
           <div
             className="h-60 w-auto border-gray-200 bg-white shadow-lg p-10 rounded-lg hover:shadow-lg 
-      transform transition-transform duration-300 hover:scale-105"
+       transition-transform duration-300 hover:scale-105"
           >
             <img src="./h2.png" alt="" className="h-12 w-12 mb-4" />
             <p>
@@ -38,7 +38,7 @@ const PropertyTypes = () => {
           </div>
           <div
             className="h-60 w-auto border-gray-200 bg-white shadow-lg p-10 rounded-lg hover:shadow-lg 
-      transform transition-transform duration-300 hover:scale-105"
+       transition-transform duration-300 hover:scale-105"
           >
             <img src="./h3.png" alt="" className="h-12 w-12 mb-4" />
             <p>
@@ -51,7 +51,7 @@ const PropertyTypes = () => {
           </div>
           <div
             className="h-60 w-auto border-gray-200 bg-white shadow-lg p-10 rounded-lg hover:shadow-lg 
-      transform transition-transform duration-300 hover:scale-105"
+       transition-transform duration-300 hover:scale-105"
           >
             <img src="./h4.png" alt="" className="h-12 w-12 mb-4" />
             <p>
@@ -64,7 +64,7 @@ const PropertyTypes = () => {
           </div>
           <div
             className="h-60 w-auto border-gray-200 bg-white shadow-lg p-10 rounded-lg hover:shadow-lg 
-      transform transition-transform duration-300 hover:scale-105"
+       transition-transform duration-300 hover:scale-105"
           >
             <img src="./h5.png" alt="" className="h-12 w-12 mb-4" />
             <p>
