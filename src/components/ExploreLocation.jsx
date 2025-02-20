@@ -1,4 +1,4 @@
-import React from "react";
+
 
 const PropertyGrid = () => {
   const properties = [
@@ -14,7 +14,7 @@ const PropertyGrid = () => {
     <div className="min-h-screen w-full bg-gray-300 py-10 px-4">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-8 text-gray-800">
+        <h2 className="text-3xl md:text-4xl font-bold text-center mt-4 mb-10 text-gray-800">
           Discover Your Dream Property
         </h2>
 

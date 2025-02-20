@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { useNavigate } from "react-router-dom"; // Import useNavigate for redirection
 import { auth } from "../Firebase"; // Import Firebase Auth
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
@@ -85,3 +85,7 @@ const Auth = () => {
 };
 
 export default Auth;
+
+
+
+
