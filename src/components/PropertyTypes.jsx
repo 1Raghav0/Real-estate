@@ -1,9 +1,9 @@
-import React from "react";
+
 
 const PropertyTypes = () => {
   return (
     <>
-      <div className="flex flex-col items-center justify-center  h-full w-auto p-20 bg-amber-100 ">
+      <div className="flex flex-col items-center justify-center  h-full w-auto p-24 bg-amber-100 ">
         <h1 className="text-5xl">Featured Property</h1>
         <h1 className="text-5xl mb-6">Types</h1>
         <h4 className="text-gray-600 text-xl mb-6">

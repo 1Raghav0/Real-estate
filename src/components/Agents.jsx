@@ -1,12 +1,11 @@
-import React from "react";
 
 const Agents = () => {
   const agents = [
     { id: 1, listings: "50 Listings", image: "./team-1.jpg", location: "Liverpool, Canada", name: "Sargam S. Singh" },
     { id: 2, listings: "70 Listings", image: "./team-2.jpg", location: "Montreal, Canada", name: "Harijeet M. Siller" },
     { id: 3, listings: "80 Listings", image: "./team-3.jpg", location: "Denver, USA", name: "Anna K. Young" },
-    { id: 4, listings: "51 Listings", image: "./team-4.jpg", location: "Briarwood Drive, USA", name: "Michael P. Grimaldo" },
-    { id: 5, listings: "42 Listings", image: "./team-2.jpg", location: "Briarwood Drive, USA", name: "Michael P. Grimaldo" },
+    { id: 4, listings: "51 Listings", image: "./team-4.jpg", location: "Briarwood Drive, USA", name: "Michael P" },
+    { id: 5, listings: "42 Listings", image: "./team-2.jpg", location: "Briarwood Drive, USA", name: "P. Grimaldo" },
     { id: 6, listings: "38 Listings", image: "./team-5.jpg", location: "Montreal, USA", name: "Adam K. Jollio" },
   ];
 
@@ -21,12 +20,12 @@ const Agents = () => {
           Finding the perfect home is easier with our expert real estate agents. They are dedicated to helping you buy, sell, or rent properties with ease.
         </p>
 
-        {/* Responsive Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-10 place-items-cente md:w-[100]">
+        {/* Flex Layout */}
+        <div className="flex flex-wrap justify-center gap-8 mt-10">
           {agents.map((agent) => (
             <div
               key={agent.id}
-              className="flex flex-col items-center text-center gap-y-4 p-10 shadow-lg bg-white rounded-xl hover:shadow-2xl transition-transform duration-300 hover:scale-105"
+              className="flex flex-col items-center text-center gap-y-4 p-10 shadow-lg bg-white rounded-xl hover:shadow-2xl transition-transform duration-300 hover:scale-105 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5"
             >
               {/* Listings Badge */}
               <span className="bg-gray-700 text-white px-5 py-2 rounded-3xl text-sm font-semibold">

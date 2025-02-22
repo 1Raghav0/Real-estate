@@ -1,11 +1,11 @@
-import React from "react";
+
 
 const About = () => {
   return (
-    <div className="w-full bg-gray-100 py-12 px-6">
+    <div className="w-full bg-gray-100 py-20 px-6">
       <div className="max-w-7xl mx-auto text-center">
         {/* Heading */}
-        <h1 className="text-4xl font-bold text-gray-800 mb-6">About Us</h1>
+        <h1 className="text-4xl font-bold text-gray-800 mb-4">About Us</h1>
         <p className="text-lg text-gray-600 max-w-2xl mx-auto">
           Your trusted real estate partner – helping you find, buy, or rent your dream property with ease.
         </p>
@@ -16,7 +16,7 @@ const About = () => {
         <h2 className="text-3xl font-semibold text-gray-800 text-center">Who We Are</h2>
         <p className="text-gray-600 text-lg mt-4 text-center">
           Welcome to <span className="text-green-600 font-semibold">RentUP</span>, your go-to destination for finding the perfect property.
-          Whether you're looking to <strong>buy, sell, or rent</strong>, we provide a seamless and hassle-free experience tailored to your needs.
+          Whether you are looking to <strong>buy, sell, or rent</strong>, we provide a seamless and hassle-free experience tailored to your needs.
         </p>
       </div>
 

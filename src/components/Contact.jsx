@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {
@@ -39,7 +39,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="w-full bg-gray-100 py-12 px-6">
+    <div className="w-full bg-gray-100 py-24 px-6">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <h1 className="text-4xl font-bold text-center text-gray-800 mb-6">

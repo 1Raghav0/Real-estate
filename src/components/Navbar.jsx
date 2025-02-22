@@ -7,11 +7,11 @@ const Navbar = () => {
 
   return (
     <nav className="w-full bg-white shadow-md fixed top-0 left-0 z-50 ">
-      <div className="max-w-7xl mx-auto px-8 py-2 flex justify-between items-center">
+      <div className="max-w-7xl mx-auto h-20 px-8 py-2 flex justify-between items-center">
         
         {/* Logo */}
         <div>
-          <img src="./logo.png" className="w-20 h-auto" alt="Logo" />
+          <img src="./logo.jpg" className="w-20 h-auto rounded-lg" alt="Logo" />
         </div>
 
         {/* Desktop Menu (Visible on Large Screens) */}

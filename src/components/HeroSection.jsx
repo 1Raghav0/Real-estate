@@ -1,7 +1,7 @@
 const HeroSection = () => {
   return (
     <>
-        <div className="relative w-full h-screen flex items-center justify-center bg-[url(./city-1.png)] bg-cover"> 
+        <div className="relative w-full h-screen flex items-center justify-center  bg-gradient-to-tr from-slate-900 to-zinc-500 bg-cover"> 
       {/* Overlay for better text readability */}
       <div className="absolute inset-0 bg-opacity-10"></div>
 

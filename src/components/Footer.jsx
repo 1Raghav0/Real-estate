@@ -1,4 +1,3 @@
-import React from "react";
 
 const Footer = () => {
   return (
@@ -14,7 +13,7 @@ const Footer = () => {
           </button>
         </div>
         <p className="text-white text-center md:text-left mt-3">
-          We'll help you grow your career and achieve success.
+          We will help you grow your career and achieve success.
         </p>
       </div>
 
@@ -23,7 +22,7 @@ const Footer = () => {
         <div className="max-w-7xl mx-auto grid gap-10 md:grid-cols-2">
           {/* Left Section - Subscription */}
           <div className="flex flex-col gap-y-4">
-            <img src="./logo.png" alt="Logo" className="w-32 h-auto" />
+            <img src="./logo.jpg" alt="Logo" className="w-32 h-auto rounded-2xl" />
             <p className="text-2xl font-semibold">
               Do You Need Help With <br /> Anything?
             </p>
